@@ -25,7 +25,18 @@ public class Main {
         double sonuc = toplam/4;
         System.out.print("ortalamanız: " + sonuc);
 
+        //KDV Hesaplayan Program
 
+        Scanner y = new Scanner(System.in);
+
+        System.out.print("\n");
+
+        int tutar;
+        System.out.println("Lütfen bir tutar giriniz: ");
+        tutar = y.nextInt();
+
+        double islem = tutar * 0.5 + tutar;
+        System.out.print("Tutarınızın KDV'li Hali =  " + islem);
 
 
 
