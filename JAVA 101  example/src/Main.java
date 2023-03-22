@@ -90,5 +90,63 @@ public class Main {
         double alan = sayi2*(sayi1*sayi1);
         System.out.print("Dairenin Alanı: " + alan);
 
+        // Manav Kasa Programı
+
+        Scanner c = new Scanner(System.in);
+
+        System.out.print("\n");
+
+        float elmaFiyat = 3.67F , portakalFiyat = 2.14F ,muzFiyat = 0.95F ,domatesFiyat = 1.1F ,balcanFiyat = 5.0F;
+
+        int elmaMiktari;
+        System.out.print("Kaç kilo elma? ");
+        elmaMiktari = c.nextInt();
+        double hesap2 = elmaMiktari*elmaFiyat;
+        System.out.print("Ödenecek tutar: " + hesap2);
+
+        System.out.print("\n");
+
+        int portakalMiktari;
+        System.out.print("Kaç kilo portakal? ");
+        portakalMiktari = c.nextInt();
+        double hesap1 = portakalMiktari*portakalFiyat;
+        System.out.print("Ödenecek tutar: " + hesap1);
+
+        System.out.print("\n");
+
+        int muzMiktari;
+        System.out.print("Kaç kilo muz? ");
+        muzMiktari = c.nextInt();
+        double hesap3 = muzMiktari*muzFiyat;
+        System.out.print("Ödenecek tutar: " + hesap3);
+
+        System.out.print("\n");
+
+        int domatesMiktari;
+        System.out.print("Kaç kilo domates? ");
+        domatesMiktari = c.nextInt();
+        double hesap4 = domatesMiktari*domatesFiyat;
+        System.out.print("Ödenecek tutar: " + hesap4);
+
+
+        System.out.print("\n");
+
+        int balcanMiktari;
+        System.out.print("Kaç kilo balcan? ");
+        balcanMiktari = c.nextInt();
+        double hesap5 = balcanMiktari*balcanFiyat;
+        System.out.print("Ödenecek tutar: " + hesap5);
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
