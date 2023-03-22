@@ -38,6 +38,26 @@ public class Main {
         double islem = tutar * 0.5 + tutar;
         System.out.print("Tutarınızın KDV'li Hali =  " + islem);
 
+        // Dik Üçgende Hipotenüs Bulan Program
+
+        Scanner z = new Scanner(System.in);
+
+        System.out.print("\n");
+
+        int number1;
+        int number2;
+
+        System.out.print("İlk sayıyı giriniz: ");
+        number1 = z.nextInt();
+
+        System.out.print("\n");
+
+        System.out.print("İkinci sayıyı giriniz: ");
+        number2 = z.nextInt();
+
+
+        double hipotenüs = Math.pow((number1*number1)+(number2*number2),0.5);
+        System.out.print("Dik Üçgenin Hipotenüs Uzunluğu = " + hipotenüs);
 
 
     }
